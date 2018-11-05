@@ -4,7 +4,8 @@ using System.Collections;
 public class BGScroller : MonoBehaviour
 {
 	public float scrollSpeed;
-	public float tileSizeZ;
+	
+    public float tileSizeZ;
 
 	private Vector3 startPosition;
 

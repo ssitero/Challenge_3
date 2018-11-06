@@ -5,8 +5,10 @@ public class DestroyByContact : MonoBehaviour
 {
 	public GameObject explosion;
 	public GameObject playerExplosion;
-	public int scoreValue;
-	private GameController gameController;
+	
+    public int scoreValue;
+
+    private GameController gameController;
 
 	void Start ()
 	{

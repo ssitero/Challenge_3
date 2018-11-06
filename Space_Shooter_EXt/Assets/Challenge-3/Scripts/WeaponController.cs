@@ -5,7 +5,8 @@ public class WeaponController : MonoBehaviour
 {
 	public GameObject shot;
 	public Transform shotSpawn;
-	public float fireRate;
+	
+    public float fireRate;
 	public float delay;
 
 	void Start ()

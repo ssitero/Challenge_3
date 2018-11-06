@@ -23,7 +23,11 @@ public class PlayerController : MonoBehaviour
 	
 	void Update ()
 	{
-		if (Input.GetButton("Fire1") && Time.time > nextFire) {
+        if (Input.GetKey("escape"))
+            Application.Quit();
+
+
+        if (Input.GetButton("Fire1") && Time.time > nextFire) {
 			
             nextFire = Time.time + fireRate;
 			Instantiate(shot, shotSpawn.position, shotSpawn.rotation);

@@ -7,15 +7,16 @@ public class GameController : MonoBehaviour
 {
     public GameObject[] hazards;
     public Vector3 spawnValues;
-    
-  
-    public float spawnWait;
+
+
     public float startWait;
     public float waveWait;
+    public float spawnWait;
 
+    public Text gameOverText;
     public Text scoreText;
     public Text restartText;
-    public Text gameOverText;
+
 
     private bool gameOver;
     private bool restart;
